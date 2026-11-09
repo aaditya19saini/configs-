@@ -1,0 +1,140 @@
+{
+  "bar": {
+    "background": "glassy",
+    "layout": {
+      "center": [
+        {
+          "id": "aaditya.temps"
+        },
+        {
+          "format": "ddd d MMM",
+          "id": "aaditya.calendar"
+        },
+        {
+          "format": "h:mm AP",
+          "formatAlt": "HH:mm",
+          "id": "aaditya.clock",
+          "verticalFormat": "HH\n—\nmm"
+        },
+        {
+          "id": "omarchy.weather"
+        },
+        {
+          "id": "omarchy.system-update"
+        }
+      ],
+      "centerBegin": [
+        {
+          "id": "omarchy.indicators",
+          "alwaysShow": false,
+          "items": [
+            "ScreenRecording",
+            "RemoteSession",
+            "Reminder",
+            "NightLight",
+            "Dnd",
+            "StayAwake"
+          ]
+        }
+      ],
+      "centerEnd": [
+        {
+          "id": "io.github.enovara.teach-voxtype"
+        }
+      ],
+      "left": [
+        {
+          "id": "omarchy.menu"
+        },
+        {
+          "id": "io.github.sanchokusika.workspace-styler",
+          "accent": true,
+          "style": "pills",
+          "effect": "slide",
+          "persistent": 3
+        },
+        {
+          "id": "io.github.ruffbudda.sticky-notes"
+        }
+      ],
+      "right": [
+        {
+          "id": "omarchy.tray"
+        },
+        {
+          "id": "omarchy.keyboard-layout"
+        },
+        {
+          "id": "aaditya.spotify"
+        },
+        {
+          "id": "aaditya.todo"
+        },
+        {
+          "id": "aaditya.focus"
+        },
+        {
+          "id": "aaditya.notifications"
+        },
+        {
+          "id": "aaditya.agents"
+        },
+        {
+          "id": "omarchy.bluetooth"
+        },
+        {
+          "id": "omarchy.network"
+        },
+        {
+          "id": "omarchy.audio"
+        },
+        {
+          "id": "omarchy.microphone"
+        },
+        {
+          "id": "aaditya.opendisplay"
+        },
+        {
+          "id": "omarchy.monitor"
+        },
+        {
+          "id": "aaditya.power"
+        }
+      ],
+      "tray": []
+    },
+    "position": "top"
+  },
+  "cloneSourceRestores": [
+    "aaditya.lock",
+    "aaditya.toasts"
+  ],
+  "disabledPlugins": [
+    "omarchy.lock",
+    "omarchy.notifications"
+  ],
+  "dock": {
+    "pinned": [
+      "org.gnome.Nautilus",
+      "obsidian",
+      "spotify",
+      "chromium"
+    ]
+  },
+  "idle": {
+    "lock": 1200,
+    "screensaver": 600
+  },
+  "plugins": [
+    {
+      "id": "aaditya.lock"
+    },
+    {
+      "id": "aaditya.toasts"
+    },
+    {
+      "id": "aaditya.desktop-sticky"
+    }
+  ],
+  "version": 1
+}

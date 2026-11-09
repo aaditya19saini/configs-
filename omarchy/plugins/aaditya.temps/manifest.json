@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "aaditya.temps",
+  "name": "Temperatures",
+  "version": "1.0.0",
+  "author": "aaditya",
+  "description": "CPU and GPU temperatures in the bar",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "Temperatures",
+    "description": "CPU and GPU temperatures in the bar",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "center",
+    "defaults": {
+      "interval": 3,
+      "warnAt": 85
+    }
+  }
+}

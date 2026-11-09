@@ -1,0 +1,3 @@
+# Apps that always open on the NVIDIA GPU, one per line.
+# Use the app's .desktop name (e.g. org.blender.Blender) or its command (e.g. blender).
+# Edit with: gpu-switch add <app> / gpu-switch remove <app>

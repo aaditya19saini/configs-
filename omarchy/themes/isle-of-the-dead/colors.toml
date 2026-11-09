@@ -1,0 +1,34 @@
+mode = "dark"
+
+# Böcklin, "Isle of the Dead": black water and cypress, limestone cliffs,
+# a storm-violet sky, rust lichen on the rocks.
+
+accent = "#8c95bd"
+selection = "#2e3044"
+muted = "#4a4652"
+
+background = "#15141a"
+dark_background = "#0f0e13"
+darker_background = "#0a090d"
+lighter_background = "#24222b"
+
+foreground = "#d7c8b9"
+dark_foreground = "#6b6370"
+light_foreground = "#a39795"
+bright_foreground = "#efe6dc"
+
+red = "#b55d3c"
+yellow = "#c9a96e"
+orange = "#c4824a"
+green = "#7d9a72"
+cyan = "#84a3a8"
+blue = "#7d88b0"
+magenta = "#a68a9e"
+brown = "#8a5a2e"
+
+bright_red = "#d07a57"
+bright_yellow = "#e0c48c"
+bright_green = "#9bb88e"
+bright_cyan = "#a3c0c4"
+bright_blue = "#a0aad0"
+bright_magenta = "#c2a7b9"

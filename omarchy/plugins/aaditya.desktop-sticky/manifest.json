@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "aaditya.desktop-sticky",
+  "name": "Desktop Sticky Notes",
+  "version": "2.0.0",
+  "author": "aaditya",
+  "description": "The Sticky Notes board on the desktop: editable, draggable, synced with the bar panel",
+  "kinds": [
+    "service"
+  ],
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}

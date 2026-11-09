@@ -1,0 +1,12 @@
+[Unit]
+Description=Restart Easy Effects after resume if its output lost the speaker
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=%h/.local/bin/easyeffects-relink-on-resume
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target

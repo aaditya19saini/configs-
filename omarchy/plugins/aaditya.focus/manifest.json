@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "aaditya.focus",
+  "name": "Focus",
+  "version": "1.0.0",
+  "author": "aaditya",
+  "description": "Focus sessions with a contribution graph of focused time per day",
+  "kinds": [
+    "service",
+    "panel",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml",
+    "panel": "Panel.qml",
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "Focus",
+    "description": "Focus session timer with breaks and a contribution graph",
+    "category": "Time",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

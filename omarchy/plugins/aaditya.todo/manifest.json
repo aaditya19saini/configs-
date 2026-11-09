@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "aaditya.todo",
+  "name": "To-do",
+  "version": "1.0.0",
+  "author": "aaditya",
+  "description": "A small to-do list in the bar, pinned to the desktop too",
+  "kinds": [
+    "service",
+    "panel",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml",
+    "panel": "Panel.qml",
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "To-do",
+    "description": "Open task count with a popup to add, tick off and remove tasks",
+    "category": "Time",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

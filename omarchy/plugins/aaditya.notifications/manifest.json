@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "aaditya.notifications",
+  "name": "Notification Center",
+  "version": "1.0.0",
+  "author": "aaditya",
+  "description": "Bell icon with a panel to review and remove notifications",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "Notification Center",
+    "description": "Bell icon with a panel to review and remove notifications",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "pollSeconds": 3,
+      "showCount": true
+    }
+  }
+}

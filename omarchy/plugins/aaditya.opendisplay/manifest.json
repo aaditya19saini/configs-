@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "aaditya.opendisplay",
+  "name": "OpenDisplay",
+  "version": "1.0.0",
+  "author": "aaditya",
+  "description": "iPad display status, shown only while OpenDisplay is streaming",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "OpenDisplay",
+    "description": "iPad display status, shown only while streaming",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {}
+  }
+}

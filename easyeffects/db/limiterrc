@@ -1,0 +1,6 @@
+[soe][Limiter#0]
+gainBoost=false
+inputGain=10.5
+outputGain=0.6
+release=20
+threshold=-1

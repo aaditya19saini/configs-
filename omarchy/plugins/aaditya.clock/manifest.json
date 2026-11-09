@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "aaditya.clock",
+  "name": "My Clock",
+  "version": "1.0.0",
+  "author": "Omarchy",
+  "description": "Time label with an analog clock, alarms and timers",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "My Clock",
+    "description": "Time label with an analog clock, alarms and timers",
+    "category": "Time",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.clock"
+  }
+}

@@ -1,0 +1,12 @@
+[Unit]
+Description=Focus the lock screen password box after resume
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=%h/.local/bin/lock-refocus-on-resume
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target

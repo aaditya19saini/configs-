@@ -1,0 +1,5 @@
+[tools]
+bun = "latest"
+python = "latest"
+
+[settings.upgrade]

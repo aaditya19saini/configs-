@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "aaditya.desktop-weather",
+  "name": "Desktop Weather",
+  "version": "1.0.0",
+  "author": "aaditya",
+  "description": "Weather card drawn on the desktop, under all windows",
+  "kinds": [
+    "service"
+  ],
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
